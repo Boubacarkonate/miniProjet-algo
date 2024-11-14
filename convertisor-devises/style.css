@@ -1,0 +1,125 @@
+/* Style de base pour la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+ul {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul li {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Conteneur principal */
+div {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour les inputs */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Styles pour les selects */
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Styles pour les boutons */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Conteneur pour les résultats */
+#container-p,
+#containerConverted-p {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Texte du résultat */
+#container-p p,
+#containerConverted-p p {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Mise en page responsive */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    ul,
+    div {
+        width: 90%;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    input[type="number"],
+    select {
+        font-size: 14px;
+    }
+}

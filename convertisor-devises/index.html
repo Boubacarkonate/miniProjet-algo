@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Convertisseur de devises</h1>
+    <ul>
+        <li>Description : Convertissez des montants entre plusieurs devises.</li>
+        <li>Points d’apprentissage : Appels API, calculs, affichage dynamique.</li>
+        <li>Fonctionnalités supplémentaires : Enregistrer les conversions précédentes, gérer plusieurs devises.</li>
+    </ul>
+
+    <div>
+        <input type="number" name="" id="current-valeur" value="" placeholder="valeur">
+        <br>
+        <br>
+        <label for="current-devise">Choisir la devise actuelle</label>
+        <select name="" id="current-devise">
+            <option value="">--devise : --</option>
+            <option value="euros">euros €</option>
+            <option value="dollars">dollars $</option>
+            <option value="franc-cfa">francs FCFA</option>
+            <option value="livres">livres sterling £</option>
+        </select>
+        <button id="deviseSelected">valider la devise actuelle</button>
+        <div id="container-p"></div>
+        <br>
+
+        <label for="converted-devise">Choisir la devise de conversion</label>
+        <select name="" id="converted-devise">
+            <option value="">--devise : --</option>
+            <option value="euros">euros €</option>
+            <option value="dollars">dollars $</option>
+            <option value="franc-cfa">francs FCFA</option>
+            <option value="livres">livres £</option>
+        </select>
+        <button id="deviseConverted">valider la devise convertie</button>
+        <div id="containerConverted-p"></div>
+
+    </div>
+
+    <script src="scriptCompleted.js"></script>
+</body>
+
+</html>

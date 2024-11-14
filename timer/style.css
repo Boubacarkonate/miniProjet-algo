@@ -1,0 +1,63 @@
+/* Conteneur principal centré sur la page */
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+}
+
+/* Affichage du temps */
+.time-display {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style des boutons */
+.button-group {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Couleur de chaque bouton */
+#start {
+    background-color: #4caf50;
+    /* Vert pour Démarrer */
+}
+
+#stop {
+    background-color: #f44336;
+    /* Rouge pour Arrêter */
+}
+
+#reset {
+    background-color: #ff9800;
+    /* Orange pour Réinitialiser */
+}
+
+/* Hover et focus des boutons */
+button:hover,
+button:focus {
+    opacity: 0.9;
+}

@@ -1,0 +1,22 @@
+{
+    "euros": {
+        "dollars": 1.06,
+        "livres": 0.83,
+        "franc-cfa": 652.74
+    },
+    "dollars": {
+        "euros": 0.94,
+        "livres": 0.78,
+        "franc-cfa": 617.09
+    },
+    "franc-cfa": {
+        "euros": 0.0015,
+        "livres": 0.0013,
+        "dollars": 0.0016
+    },
+    "livres": {
+        "euros": 1.20,
+        "dollars": 1.27,
+        "franc-cfa": 786.75
+    }
+}
