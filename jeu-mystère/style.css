@@ -1,0 +1,94 @@
+/* Style général pour la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Titre principal */
+h1 {
+    color: #007bff;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Liste des consignes */
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+/* Paragraphe des instructions */
+p {
+    font-size: 1.1em;
+    margin: 15px auto;
+    color: #495057;
+}
+
+/* Bouton démarrer */
+button#start {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#start:hover {
+    background-color: #0056b3;
+}
+
+/* Conteneur du jeu */
+#containerJeu {
+    margin-top: 20px;
+    max-width: 600px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Messages dynamiques */
+#containerJeu p {
+    font-size: 1em;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
