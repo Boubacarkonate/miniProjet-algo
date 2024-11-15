@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Calculatrice</h1>
+    <ul>
+        <li>But : Créer une calculatrice simple qui effectue des opérations de base (addition, soustraction,
+            multiplication, division).</li>
+        <li>Etapes :
+            <ul>
+                <li>Demander deux nombres à l'utilisateur.</li>
+                <li>Proposer un choix d'opérations (+, -, *, /).</li>
+                <li>Afficher le résultat de l'opération choisie.</li>
+            </ul>
+        </li>
+        <li>Concepts pratiqués : Fonctions, conditions, manipulation de variables, logique mathématique.</li>
+    </ul>
+
+    <div id="container">
+        <input type="text" disabled value="">
+        <div id="id-buttons">
+            <div class="buttons">
+                <button onclick="displayNumber(7)">7</button>
+                <button onclick="displayNumber(8)">8</button>
+                <button onclick="displayNumber(9)">9</button>
+                <button onclick="displayOperateur('/')" class="operator">÷</button>
+            </div>
+            <div class="buttons">
+                <button onclick="displayNumber(4)">4</button>
+                <button onclick="displayNumber(5)">5</button>
+                <button onclick="displayNumber(6)">6</button>
+                <button class="button operator" onclick="displayOperateur('*')">x</button>
+            </div>
+            <div class="buttons">
+                <button onclick="displayNumber(1)">1</button>
+                <button onclick="displayNumber(2)">2</button>
+                <button onclick="displayNumber(3)">3</button>
+                <button onclick="displayOperateur('-')">-</button>
+            </div>
+            <div class="buttons">
+                <button onclick="displayNumber(0)">0</button>
+                <button onclick="displayOperateur('.')">.</button>
+                <button onclick="clearInput()">C</button>
+                <button onclick="displayOperateur('+')">+</button>
+            </div>
+            <button class="buttons" onclick="resultat()">
+                =
+            </button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
