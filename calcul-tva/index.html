@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Calculer la TVA</h1>
+    <form action="">
+        <label for="">TVA</label>
+        <input type="number" id="tva" placeholder="tva">
+        <label for="">prix HT</label>
+        <input type="number" id="prixHT" placeholder="prix HT">
+        <button id="btnTTC">CALCULER</button>
+    </form>
+    <div id="resultat"></div>
+
+    <form action="">
+        <label for="prix_ht">Prix HT</label>
+        <input type="number" id="prix_ht">
+        <br>
+        <label for="choix-tva">Choisir la TVA</label>
+        <select name="" id="choix-tva">
+            <option value="20">20 %</option>
+            <option value="10">10 %</option>
+            <option value="5.5">5,5 %</option>
+        </select>
+        <button id="calcul">CALCULER</button>
+    </form>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
