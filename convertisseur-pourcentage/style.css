@@ -1,0 +1,94 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #0078D4;
+}
+
+form {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+form input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0078D4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+form button:hover {
+    background-color: #005fa3;
+}
+
+.resultat,
+.resultatAugmentation,
+.resultatDiminution,
+.resultatConversionPourcentageNombre {
+    margin-top: 15px;
+    padding: 10px;
+    background: #eaf5ff;
+    border-left: 5px solid #0078D4;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0078D4;
+}
+
+.alert {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    form button {
+        font-size: 14px;
+    }
+}
