@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Jeu de Pierre-Papier-Ciseaux</h1>
+    <ul>
+        <li>But : Créer un jeu où l'utilisateur joue contre l'ordinateur.</li>
+        <li>Étapes :
+            <ul>
+                <li>Demander à l'utilisateur de choisir entre "pierre", "papier" ou "ciseaux".</li>
+                <li>Générer un choix aléatoire pour l'ordinateur.</li>
+                <li>Comparer les choix pour déterminer le gagnant selon les règles du jeu.</li>
+            </ul>
+        </li>
+        <li>Concepts pratiqués : Conditions, génération aléatoire, logique de comparaison.</li>
+    </ul>
+    <div>
+        <form action="">
+            <label for="choix">Fais ton choix</label>
+            <select name="" id="choix">
+                <option value="">-----choisir-----</option>
+                <option value="pierre">pierre</option>
+                <option value="feuille">feuille</option>
+                <option value="ciseaux">ciseaux</option>
+            </select>
+        </form>
+        <div id="flex">
+
+            <div id="imgChoix"></div>
+            <button id="validationChoix">Valider</button>
+            <div id="adversaire"></div>
+        </div>
+        <div id="resultat"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
