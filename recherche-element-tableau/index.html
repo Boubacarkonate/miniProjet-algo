@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Recherche dans un Tableau</h1>
+    <ul>
+        <li>But : Créer une fonction qui recherche un élément spécifique dans un tableau.</li>
+        <li>Étapes :
+            <ul>
+                <li>Définir un tableau de valeurs.</li>
+                <li>Demander à l'utilisateur un élément à rechercher.</li>
+                <li>Parcourir le tableau pour trouver cet élément et indiquer s’il est présent ou non.</li>
+            </ul>
+        </li>
+        <li>Concepts pratiqués : Boucles, conditions, manipulation de tableaux.</li>
+    </ul>
+
+    <div>
+        <input type="number" id="inputNumber" placeholder="entrer la valeur" value="">
+        <button id="search">chercher</button>
+
+        <div id="resultat"></div>
+    </div>
+    <div>
+        <button id="display">afficher le tableau</button>
+        <div>
+            <ul id="displayElement"></ul>
+        </div>
+        <button id="restart" onclick="redemarer()">recommencer</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
