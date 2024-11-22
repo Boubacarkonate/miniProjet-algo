@@ -1,0 +1,59 @@
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Titre principal */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #00ffcc;
+    text-shadow: 0 2px 5px rgba(0, 255, 204, 0.8);
+}
+
+/* Conteneur de la montre */
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 320px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+/* Conteneur pour l'heure */
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.heure {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00ffcc;
+    text-shadow: 0 2px 5px rgba(0, 255, 204, 0.8);
+}
+
+/* Style pour la date (jour) */
+#jour {
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(255, 255, 255, 0.6);
+    margin-top: 10px;
+}
