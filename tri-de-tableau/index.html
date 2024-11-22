@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Tri de Tableau</h1>
+
+    <ul>
+        <li>But : Écrire un algorithme qui trie un tableau de nombres (par exemple, avec le tri par sélection ou par
+            insertion).</li>
+        <li>Étapes :
+            <ul>
+                <li>Définir un tableau de nombres.</li>
+                <li>Implémenter un algorithme de tri (ex. tri par sélection ou tri à bulles).</li>
+                <li>Afficher le tableau trié.</li>
+            </ul>
+        </li>
+        <li>Concepts pratiqués : Boucles imbriquées, manipulation de tableaux, logique de tri.</li>
+    </ul>
+
+    <div>
+        <div id="array">
+            <div>
+                <input type="number" id="longueurArray" placeholder="combien de nombres ?">
+            </div>
+            <input type="number" id="numberMin" placeholder="choisir un minimun">
+            <input type="number" id="numberMax" placeholder="choisir un nombre maximun">
+            <button id="displayArray">Afficher le tableau</button>
+            <ul></ul>
+        </div>
+        <div id="plusGrand_au_plusPetit">
+            <button id="tri+">Trier du plus grand au plus petit</button>
+            <ul></ul>
+        </div>
+        <div id="plusPetit_au_plusGrand">
+            <button id="tri-">Trier du plus petit au plus grand</button>
+            <ul></ul>
+        </div>
+        <button onclick="restart()">Recommencer</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
