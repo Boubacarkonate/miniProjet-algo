@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Gestionnaire de Notes</h1>
+
+    <ul>
+        <li>But : Créer une application simple pour ajouter, afficher et supprimer des notes.</li>
+        <li>Étapes :
+            <ol>
+                <li>Permettre à l'utilisateur d'ajouter une note avec un titre et une description</li>
+                <li>Afficher toutes les notes dans une liste.</li>
+                <li>Ajouter un bouton pour supprimer une note spécifique.</li>
+            </ol>
+        </li>
+        <li>Concepts pratiqués : Manipulation des objets et tableaux, DOM, événements.</li>
+    </ul>
+
+    <div>
+        <div id="creationNote">
+            <input type="number" id="ajoutNote" placeholder="note" value="">
+            <button id="ajout">Ajouter</button>
+        </div>
+        <ul id="displayNote"></ul>
+    </div>
+    <button onclick="moyenneNotes()">Calculer moyenne</button>
+    <p id="moyenne"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
