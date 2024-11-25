@@ -27,7 +27,7 @@ displayNote.appendChild(li)
 const created_li = (note) =>{
 
    let li = document.createElement('li');
-   li.textContent = note;
+   li.innerHTML = `<strong>${note}</strong> sur 20`;
    
    displayNote.appendChild(li);
    const boutonSup = document.createElement('button');
@@ -55,18 +55,17 @@ const deletedNote = (note) => {
 btnAjout.addEventListener('click',() => {
     let inputNote = parseFloat(ajoutNote.value);
     created_li(inputNote);
-    notes.push(inputNote)
+    notes.push(inputNote);
+    ajoutNote.value = '';
     console.log(notes);
 });
 
 
-//moyenne => additionner toutes les notes / par le nombre de notes
-
-const moyenneNotes = (el) => {
+const moyenneNotes = () => {
     let sum = parseFloat(0);
     for (let i = 0; i < notes.length; i++) {
         sum +=notes[i]
-        let total = parseFloat(sum / notes.length);
-        moyenne.textContent = total
+        let total = parseFloat(sum / notes.length).toFixed(2);
+        moyenne.innerHTML = `La moyenne est de <strong>${total}</strong> sur 20`;
     }
 };
