@@ -1,0 +1,91 @@
+#couleurs {
+    width: 120px;
+    height: 360px;
+    margin: 20px auto;
+    background-color: #000;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.color_vert,
+.color_orange,
+.color_rouge {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: gray;
+    /* Couleur initiale */
+}
+
+.vert {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.rouge {
+    background-color: red;
+}
+
+.colorNormal {
+    background-color: gray;
+}
+
+/* Style général pour la page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: square;
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+
+
+/* Style des boutons */
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start {
+    background-color: #4caf50;
+    color: white;
+}
+
+.start:hover {
+    background-color: #45a049;
+}
+
+.stop {
+    background-color: #f44336;
+    color: white;
+}
+
+.stop:hover {
+    background-color: #d32f2f;
+}
