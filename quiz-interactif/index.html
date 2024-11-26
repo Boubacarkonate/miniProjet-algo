@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Quiz interactif</h1>
+
+    <p>Bienvenue et bonne chance</p>
+    <button id="start">Démarrer le quiz</button>
+    <form action="">
+        <title>QUIZ</title>
+        <div id="questionnaire">
+
+            <fieldset id="first">
+                <legend>Question 1 : Les dauphins sont des mammifères.</legend>
+                <div>
+                    <input type="radio" value="vrai" id="rep1-vrai" name="question1">
+                    <label for="">vrai</label>
+                    <input type="radio" name="question1" value="faux" id="rep1-faux">
+                    <label for="">faux</label>
+                </div>
+                <button id="btn1">suivant</button>
+            </fieldset>
+            <fieldset id="second">
+                <legend>Question 2 : La tour Eiffel est à Londres.</legend>
+                <div>
+                    <input type="radio" value="vrai" id="rep2-vrai" name="question2">
+                    <label for="">vrai</label>
+                    <input type="radio" name="question2" value="faux" id="rep2-faux">
+                    <label for="">faux</label>
+                </div>
+                <button id="btn2">suivant</button>
+            </fieldset>
+            <fieldset id="third">
+                <legend>Question 3 : Le panda géant se nourrit principalement de bambou.</legend>
+                <div>
+                    <input type="radio" value="vrai" id="rep3-vrai" name="question3">
+                    <label for="">vrai</label>
+                    <input type="radio" name="question3" value="faux" id="rep3-faux">
+                    <label for="">faux</label>
+                </div>
+                <button id="btn3">suivant</button>
+            </fieldset>
+            <fieldset id="fourth">
+                <legend>Question 4 : Le Soleil est une planète.</legend>
+                <div>
+                    <input type="radio" value="vrai" id="rep4-vrai" name="question4">
+                    <label for="">vrai</label>
+                    <input type="radio" name="question4" value="faux" id="rep4-faux">
+                    <label for="">faux</label>
+                </div>
+                <button id="btn4">voir le resultat</button>
+            </fieldset>
+        </div>
+    </form>
+    <p id="resultat"></p>
+    <div id="restart"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    <h1>Système de Validation de Formulaire</h1>
+
+    <ul>
+        <li>But : Vérifier les entrées utilisateur avant soumission d’un formulaire.</li>
+        <li>Étapes : <ol>
+                <li>Créer un formulaire avec des champs comme email, mot de passe, etc.</li>
+                <li>Valider les champs en JavaScript (ex. : email valide, mot de passe avec au moins 8 caractères).</li>
+                <li>Afficher des messages d'erreur pour les champs non valides.</li>
+            </ol>
+        </li>
+        <li>Concepts pratiqués : Gestion des événements, manipulation des chaînes, logique conditionnelle.
+        </li>
+    </ul>
+
+    <form action="">
+        <label for="email">entrer votre email </label>
+        <br>
+        <input type="text" name="" id="email" placeholder="email">
+        <div id="errorEmail"></div>
+        <br>
+        <br>
+        <label>entrer votre mot de passe
+            <br><input type="password" id="password" placeholder="mot de passe">
+        </label>
+        <div id="errorPassword"></div>
+        <br>
+        <br>
+        <button type="submit">envoyer</button>
+    </form>
+    <div id="connection"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
